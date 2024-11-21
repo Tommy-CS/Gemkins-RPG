@@ -1,2 +1,2 @@
 # Gemkins
- Gemkins is an RPG based off of Pokemon
+ Gemkins is an RPG based off of Pokemon.
