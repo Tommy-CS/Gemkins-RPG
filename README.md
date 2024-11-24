@@ -8,7 +8,7 @@
 - Level up your Gemkin and face tougher foes.
 - Engage in an epic boss battle against Aetherion.
 - Save and load progress to continue your adventure seamlessly.
-- Three level 20 save files for each of the starter Gemkins, if you want to fight or test the boss fight.
+- Access pre-saved level 20 files for each starter Gemkin to test the boss fight or jump directly into high-level gameplay.
 
 ## Lessons Learned
 This project was an incredible learning experience that not only helped me grow as a programmer but also allowed me to strengthen my understanding of C++. With the guidance of someone more experienced, I was able to refine my code and learn many new concepts, particularly in software design and object-oriented programming principles.
