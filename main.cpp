@@ -54,7 +54,7 @@ void introduceStarters() {
     }
     else if (chosenGemkin == 's') { 
         gemkinPtr = new Sylvora();
-        cout << "An excellent pick. Sylvora's connection to nature will empower you in unexpected ways." << endl;
+        cout << "An excellent pick. Sylvora's deep bond with nature will grant you immense strength." << endl;
     }
     this_thread::sleep_for(chrono::seconds(2));
     cout << "Now set forth on your journey!" << endl;
@@ -90,7 +90,7 @@ void enterCombat() {
                 cout << "Not a valid option. Please try again." << endl;
                 cin >> choice;
             }
-
+            cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
             switch (choice) {
                 case 1: // Gemkin's physical move
                     if (gemkinPtr->getStamina() >= 10) {
@@ -120,13 +120,13 @@ void enterCombat() {
                     gemkinPtr->useSupportMove();
                     
             }
-
+            // Prints dreadcore's health, makes sure the number doesnt go below 0
             cout << "Dreadcore health: " << max(dreadcorePtr->getHealth(), 0) << endl;
-            cout << "Dreadcore stamina: " << max(dreadcorePtr->getStamina(), 0) << endl;
         } else {
             cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+            cout << ". . ." << endl;
             cout << "Dreadcore's turn!" << endl;
-
+            this_thread::sleep_for(chrono::seconds(3));
             int dreadcoreMove = rand() % 3;
             switch (dreadcoreMove) {
                 case 0:
@@ -248,7 +248,7 @@ void bossBattle() {
                 cout << "Not a valid option. Please try again." << endl;
                 cin >> choice;
             }
-
+            cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
             // Execute chosen move
             switch (choice) {
                 case 1:
@@ -281,12 +281,12 @@ void bossBattle() {
             }
 
             cout << "Aetherion health: " << max(aetherionPtr->getHealth(), 0) << endl;
-            cout << "Aetherion stamina: " << max(aetherionPtr->getStamina(), 0) << endl;
 
         } else {
             cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
             cout << "Aetherion's turn!" << endl;
-
+            cout << ". . ." << endl;
+            this_thread::sleep_for(chrono::seconds(3));
             int aetherionMove = rand() % 3;
             switch (aetherionMove) {
                 case 0:
