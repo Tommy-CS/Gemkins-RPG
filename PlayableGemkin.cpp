@@ -15,8 +15,6 @@ int PlayableGemkin::getExperience() {return experience;}
 // If you gain over 100 exp, you level up. When you level up, your stats will increase.
 void PlayableGemkin::gainExperience(int newExperience) {
     experience += newExperience;
-    cout << "TESTING LEVEL: " << level << endl;
-    cout << "TESTING GET LEVEL: " << getLevel() << endl;
 
     // Level up while experience is >= 100
     while (experience >= 100) {
