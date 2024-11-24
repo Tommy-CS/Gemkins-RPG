@@ -26,9 +26,7 @@ I ensured that each class was responsible for only one part of the program's fun
 - **Rungame**: Manages the game's narrative, dialogue, and ASCII art.
 Following the SRP ensured the program was well-structured and much easier to debug.
 
-## 🌟 Watch the Showcase Video! 🌟
-**(Click me!)** <br>
-
+## Watch the Showcase Video! Click the image below ⬇️
 [![Gemkin RPG Showcase](https://img.youtube.com/vi/ObiZO-Ur5SQ/0.jpg)](https://youtu.be/ObiZO-Ur5SQ)
 
 
