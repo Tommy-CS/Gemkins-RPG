@@ -7,9 +7,9 @@ using namespace std;
 // base stats: name(""), mysticCore(""), level(15), health(150), stamina(70), baseAttackPower(25), defensePower(10), speed(4)
 
 // Constructor with base stats, move names, and move descriptions
-Aetherion::Aetherion() : Gemkin("Aetherion, the Shard King", "Crystal/Dark", 15, 300, 70, 25, 10, 4) {
+Aetherion::Aetherion() : Gemkin("Aetherion, the Shard King", "Crystal/Dark", 15, 300, 90, 25, 10, 4) {
     setMaxHealth(150);
-    setMaxStamina(70);
+    setMaxStamina(90);
 
     setPhysicalMove("Shattered Strike");
     physicalMoveDesc = "A devastating physical attack that breaks the opponent's defenses with crystal shards.";
