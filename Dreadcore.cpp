@@ -10,17 +10,17 @@ using namespace std;
 Dreadcore::Dreadcore(int originalLevel) : Gemkin("Dreadcore", "Shadow/Corruption", originalLevel, 100, 100, 10, 8, 6) {
     // Randomized stats to make the experience fun 😈
     srand(time(0)); 
-    int dreadCoreLevel = originalLevel + (rand() % 4);  // Sets dreadcore's level to Gemkin's level + 0-3 levels
+    int dreadCoreLevel = originalLevel + (rand() % 6);  // Sets dreadcore's level to Gemkin's level + 0-5 levels
     setLevel(dreadCoreLevel);
-    randHealth = (dreadCoreLevel * 9) + 85;             // Each level up is +9 HP + 85 base HP         
+    randHealth = (dreadCoreLevel * 9) + 85;             // Each level up is +10 HP + 85 base HP         
     setHealth(randHealth);
     setMaxHealth(randHealth);
-    randStamina = (dreadCoreLevel * 4) + 50;            // Each level up is +4 stamina + 50 base stamina        
+    randStamina = (dreadCoreLevel * 3) + 80;            // Each level up is +5 stamina + 75 base stamina        
     setStamina(randStamina);
     setMaxStamina(randStamina);
     setBaseAttackPower((dreadCoreLevel * 1.5) + 3);     // Each level up is +1.5 base atk pwr +3 base atk pwr     
     setDefensePower((rand() % 6) + 5);                  // Random num between 5-10      
-    setSpeed((rand() % 13) + 4);                        // Random num between 4-12            
+    setSpeed((rand() % 13) + 4);                        // Random num between 4-12         
 
     setPhysicalMove("Shadow Claw");
     physicalMoveDesc = "Slashes with claws infused with dark energy, leaving a lingering corruption.";
