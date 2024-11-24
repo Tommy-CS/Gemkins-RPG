@@ -1,5 +1,5 @@
 # Gemkins
- **Gemkins** is a C++ console-based RPG where players embark on an adventurous journey with their chosen Gemkin creatures. The objective is to level up your Gemkins, battle corrupted enemies, and ultimately defeat the powerful final boss, Aetherion, the Shard King. The game combines turn-based battles, exploration, and rich storytelling with unique ASCII art for an immersive experience.
+**Gemkins** is a C++ console-based RPG where players embark on an adventurous journey with their chosen Gemkin creatures. The objective is to level up your Gemkins, battle corrupted enemies, and ultimately defeat the powerful final boss, Aetherion, the Shard King. The game combines turn-based battles, exploration, and rich storytelling with unique ASCII art for an immersive experience.
 
 ## Features
 - Choose from three starter Gemkins: Igneel, Cryonox, and Sylvora.
