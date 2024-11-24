@@ -27,7 +27,8 @@ I ensured that each class was responsible for only one part of the program's fun
 Following the SRP ensured the program was well-structured and much easier to debug.
 
 ## 🌟 Watch the Showcase Video! 🌟
-**(Click me!)**
+**(Click me!)** <br>
+
 [![Gemkin RPG Showcase](https://img.youtube.com/vi/ObiZO-Ur5SQ/0.jpg)](https://youtu.be/ObiZO-Ur5SQ)
 
 
