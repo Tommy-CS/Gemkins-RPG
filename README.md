@@ -13,7 +13,7 @@
 ## Lessons Learned
 This project was an incredible learning experience that not only helped me grow as a programmer but also allowed me to strengthen my understanding of C++. With the guidance of someone more experienced, I was able to refine my code and learn many new concepts, particularly in software design and object-oriented programming principles.
 
-### Cohesion: 
+### Cohesion
 - Each class was designed to have a single, well-defined purpose, improving clarity and maintainability. For example, the Gemkin class encapsulates shared traits of all Gemkins, while PlayableGemkin extends this functionality for player-specific actions like leveling up. Initially, I combined the Gemkin and PlayableGemkin classes into one. However, this approach reduced clarity and maintainability, prompting me to refactor them into separate classes with distinct responsibilities. This leads into the next thing I learned about.
 
 ### Interface Segregation Principle (ISP)
